@@ -1,0 +1,166 @@
+body{
+	font-size: 16px;
+	/*color: #E2B2FC;*/
+	background-color: #E2B2FC;
+	font-family: 'Lobster', cursive;
+}
+/*#header-nav div.container{
+	height: 30px;
+}*/
+.navbar{
+	min-height: 70px;
+	margin-bottom: 30px;
+}
+#header-nav{
+	background-color: #5B9BD5;
+	border-radius: 0;
+	border:0;
+}
+
+.navbar-brand{
+	padding-top: 50px;
+}
+
+.navbar-brand h1{ /*Restaurent name*/
+	font-family: 'Lobster', cursive;
+	color: #E2B2FC;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.nav > li >a{
+	padding: 5px 15px 0px 15px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #E2B2FC;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #DEEBF7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #5B9BD5;
+  background-color: #E2B2FC;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/****Header END****/
+.container{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+/**********Main content***********/
+/*div#main-content.container{
+	margin-right: 10px;
+	margin-left: 10px;
+}*/
+.container .jumbotron {
+  box-shadow: 0 0 5px #5B9BD5;
+  /*box-shadow: 0 0 15px #3F0C1F;*/
+  border: 2px solid #5B9BD5;
+  background-color: #5B9BD5;
+  color: #DEEBF7;
+  text-align: center;
+  padding: 10px 6px 10px 6px;
+  height: 1100px;
+  /*width:1500px;*/
+ /* width: auto;*/
+
+}
+#Skincare{
+	text-align: center;
+	font-size: 2.8em;
+	color: #5B9BD5;
+	text-shadow: 0.4px 0.5px 0.4px #222;
+}
+#morning-head{
+	text-align: center;
+	font-size: 2.5em;
+	margin-bottom: 30px; 
+	text-shadow: 0.4px 0.5px 0.4px #222;
+}
+/*****media quiery**********/
+
+/********Large devices*****/
+
+@media (min-width: 1500px) {
+  .container{
+  	width: 1450px;
+/*  	margin-right: -174.600px;
+  	margin-left: -174.600px;*/
+  }
+}
+
+/*******mediumdevices*******/
+@media (min-width: 1399px) and (max-width: 1499px) {
+  .container{
+  	width: 1300px;
+/*  	margin-right: -174.600px;
+  	margin-left: -174.600px;*/
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container{
+  	width: 1000px;
+/*  	margin-right: -174.600px;
+  	margin-left: -174.600px;*/
+  }
+}
+
+
+/********** small devices only **********/
+
+@media (max-width:767px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+  }
+  #main-content{
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 15px;
+  }
+  .morning-skin p{
+    font-weight: 600;
+    font-size: 1em;
+    padding:5px 15px;
+  }
+
+.navbar-brand h1{ /*Restaurent name*/
+	font-family: 'Lobster', cursive;
+	color: #E2B2FC;
+	font-size: 2.2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0;
+}
+#Skincare{
+	text-align: center;
+	font-size: 2.5em;
+	color: #5B9BD5;
+	text-shadow: 0.4px 0.5px 0.4px #222;
+}
+}
